@@ -29,13 +29,25 @@ def solve(eq1,eq2):
 
     #compute y
     y = -sub[2]/sub[1]
-    print(y)    
+  #  print(int(y)) 
+    
+    y = int(y)
     
     x=-(eq1[1]*y + eq1[2])/eq1[0]
     
-    print(x)
-        
+    x=int(x)
+    
+   # print(int(x))
+    
+    print(x,y)  
+    
     return(int(x),int(y))
 
 
-solve([1,-2,6],[3,5,-15])
+#solve([1,-2,6],[3,5,-15])
+
+#solve([10,-4,-58],[6,4,10])
+
+#solve([2,-1,-3],[3,2,1])
+
+solve([-3,2,34],[5,-3,-56])
