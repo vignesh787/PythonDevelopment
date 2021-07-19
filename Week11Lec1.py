@@ -21,3 +21,6 @@ except FileNotFoundError:
     print('Invalid File Name. Please check again')
 except:
     print('Something went wrong')
+finally:
+   # f.close()
+    print('From Finally block')
